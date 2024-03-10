@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 def extraer_noticias_bbc():
     # Hacer la solicitud GET a la página web de BBC News
     url = 'https://www.bbc.com/news'
